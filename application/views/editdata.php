@@ -1,10 +1,8 @@
 <div class="content">
-    <!-- <section class="content"> -->
     <?php foreach ($DataAset as $da) : ?>
         <form action="<?php echo base_url() . 'DataAset/updatedata'; ?>" method="post">
 
             <div class="form-group">
-                <!-- <label>Nomor</label> -->
                 <input type="hidden" name="Nomor" class="form-control" value="<?php echo $da->Nomor ?>">
             </div>
 
@@ -69,5 +67,4 @@
             <button type="submit" class="btn btn-primary">Simpan</button>
         </form>
     <?php endforeach; ?>
-    <!-- </section> -->
 </div>

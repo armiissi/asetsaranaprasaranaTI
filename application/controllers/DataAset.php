@@ -58,64 +58,6 @@ class DataAset extends CI_Controller
         redirect('DataAset/index');
     }
 
-    // private function _validation()
-    // {
-    //     $data = array();
-    //     $data['error_string'] = array();
-    //     $data['inputerror'] = array();
-    //     $data['status'] = true;
-
-    //     if ($this->input->post('Jenis_Aset') == '') {
-    //         $data['inputerror'][] = 'Jenis_Aset';
-    //         $data['error_string'][] = 'Jenis Aset Wajib diisi !!!';
-    //         $data['status'] = false;
-    //     }
-    //     if ($this->input->post('Merk') == '') {
-    //         $data['inputerror'][] = 'Merk';
-    //         $data['error_string'][] = 'Merk Wajib diisi !!!';
-    //         $data['status'] = false;
-    //     }
-    //     if ($this->input->post('Type') == '') {
-    //         $data['inputerror'][] = 'Type';
-    //         $data['error_string'][] = 'Type Wajib diisi !!!';
-    //         $data['status'] = false;
-    //     }
-    //     if ($this->input->post('Spesifikasi_Teknis') == '') {
-    //         $data['inputerror'][] = 'Spesifikasi_Teknis';
-    //         $data['error_string'][] = 'Spesifikasi Teknis Wajib diisi !!!';
-    //         $data['status'] = false;
-    //     }
-    //     if ($this->input->post('MAC_Address') == '') {
-    //         $data['inputerror'][] = 'MAC_Address';
-    //         $data['error_string'][] = 'MAC Address Wajib diisi !!!';
-    //         $data['status'] = false;
-    //     }
-    //     if ($this->input->post('Tahun_Perolehan') == '') {
-    //         $data['inputerror'][] = 'Tahun_Perolehan';
-    //         $data['error_string'][] = 'Tahun_Perolehan Wajib diisi !!!';
-    //         $data['status'] = false;
-    //     }
-    //     if ($this->input->post('Lokasi_Aset') == '') {
-    //         $data['inputerror'][] = 'Lokasi_Aset';
-    //         $data['error_string'][] = 'Lokasi Aset Wajib diisi !!!';
-    //         $data['status'] = false;
-    //     }
-    //     if ($this->input->post('Tanggal_Pemasangan') == '') {
-    //         $data['inputerror'][] = 'Tanggal_Pemasangan';
-    //         $data['error_string'][] = 'Tanggal Pemasangan Wajib diisi !!!';
-    //         $data['status'] = false;
-    //     }
-    //     if ($this->input->post('Alokasi_IPv4') == '') {
-    //         $data['inputerror'][] = 'Alokasi_IPv4';
-    //         $data['error_string'][] = 'Alokasi IPv4 Wajib diisi !!!';
-    //         $data['status'] = false;
-    //     }
-
-    //     if ($data['status'] == false) {
-    //         echo json_encode($data);
-    //         exit();
-    //     }
-    // }
 
     public function editdata($Nomor)
     {
