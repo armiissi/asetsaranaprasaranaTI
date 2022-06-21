@@ -11,11 +11,6 @@ class modeldataaset extends CI_Model
         return $this->db->get()->result();
     }
 
-    // public function tampildata()
-    // {
-    //     return $this->db->get('kebutuhan_data');
-    // }
-
     public function tambah_data($data, $table)
     {
         $this->db->insert($table, $data);
