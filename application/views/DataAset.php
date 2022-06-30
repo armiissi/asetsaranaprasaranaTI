@@ -5,6 +5,7 @@
                   <div class="card-header">
                       <button class="btn btn-primary btn-round" data-toggle="modal" data-target="#tambah_data">Tambah Data</button>
                   </div>
+                  <!-- tabel -->
                   <div class="card-body">
                       <table class="table">
                           <thead class=" text-primary">
@@ -40,6 +41,8 @@
                           </tbody>
                       </table>
                   </div>
+                  <!-- end tabel -->
+                  <!-- dropdown tambah data -->
                   <div class="modal fade" id="tambah_data" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                       <div class="modal-dialog" role="document">
                           <div class="modal-content">
@@ -52,38 +55,26 @@
                                       <div class="form-group">
                                           <label for="Jenis_Aset">Jenis Aset</label>
                                           <input type="text" name="Jenis_Aset" class="form-control" id="Jenis_Aset">
-                                          <div class="invalid-feedback"></div>
-                                          <!-- <?= form_error('Jenis_Aset', '<small class="text-danger pl-3">', '</small>'); ?> -->
                                       </div>
                                       <div class="form-group">
                                           <label for="Merk">Merk</label>
                                           <input type="text" name="Merk" class="form-control" id="Merk">
-                                          <div class="invalid-feedback"></div>
-                                          <!-- <?= form_error('Merk', '<small class="text-danger pl-3">', '</small>'); ?> -->
                                       </div>
                                       <div class="form-group">
                                           <label for="Type">Type</label>
                                           <input type="text" name="Type" class="form-control" id="Type">
-                                          <div class="invalid-feedback"></div>
-                                          <!-- <?= form_error('Type', '<small class="text-danger pl-3">', '</small>'); ?> -->
                                       </div>
                                       <div class="form-group">
                                           <label for="Spesifikasi_Teknis">Spesifikasi Teknis</label>
                                           <input type="text" name="Spesifikasi_Teknis" class="form-control" id="Spesifikasi_Teknis">
-                                          <div class="invalid-feedback"></div>
-                                          <!-- <?= form_error('Spesifikasi_Teknis', '<small class="text-danger pl-3">', '</small>'); ?> -->
                                       </div>
                                       <div class="form-group">
                                           <label for="MAC_Address">MAC Address</label>
                                           <input type="text" name="MAC_Address" class="form-control" id="MAC_Address">
-                                          <div class="invalid-feedback"></div>
-                                          <!-- <?= form_error('MAC_Address', '<small class="text-danger pl-3">', '</small>'); ?> -->
                                       </div>
                                       <div class="form-group">
                                           <label for="Tahun_Perolehan">Tahun Perolehan</label>
                                           <input type="text" name="Tahun_Perolehan" class="form-control" id="Tahun_Perolehan">
-                                          <div class="invalid-feedback"></div>
-                                          <!-- <?= form_error('Tahun_Perolehan', '<small class="text-danger pl-3">', '</small>'); ?> -->
                                       </div>
                                       <div class="form-group">
                                           <label for="inputState">Status</label>
@@ -95,20 +86,14 @@
                                       <div class="form-group">
                                           <label for="Lokasi_Aset">Lokasi Aset</label>
                                           <input type="text" name="Lokasi_Aset" class="form-control" id="Lokasi_Aset">
-                                          <div class="invalid-feedback"></div>
-                                          <!-- <?= form_error('Lokasi_Aset', '<small class="text-danger pl-3">', '</small>'); ?> -->
                                       </div>
                                       <div class="form-group">
                                           <label for="Tanggal_Pemasangan">Tanggal Pemasangan</label>
                                           <input type="date" name="Tanggal_Pemasangan" class="form-control" id="Tanggal_Pemasangan">
-                                          <div class="invalid-feedback"></div>
-                                          <!-- <?= form_error('Tanggal_Pemasangan', '<small class="text-danger pl-3">', '</small>'); ?> -->
                                       </div>
                                       <div class="form-group">
                                           <label for="Alokasi_IPv4">Alokasi IPv4</label>
                                           <input type="text" name="Alokasi_IPv4" class="form-control" id="Alokasi_IPv4">
-                                          <div class="invalid-feedback"></div>
-                                          <!-- <?= form_error('Alokasi_IPv4', '<small class="text-danger pl-3">', '</small>'); ?> -->
                                       </div>
                                       <div class="modal-footer">
                                           <button type="button" class="btn btn-danger" data-dismiss="modal">Batal</button>
@@ -118,6 +103,7 @@
                           </div>
                       </div>
                   </div>
+                  <!-- End Dropdown -->
               </div>
           </div>
 

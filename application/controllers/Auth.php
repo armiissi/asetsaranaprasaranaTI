@@ -31,7 +31,7 @@ class Auth extends CI_Controller
 
         $user = $this->db->get_where('user', ['Username' => $username])->row_array();
         if ($user) {
-            //user ada
+            //jika user ada
             if (Password_verify($password, $user['Password'])) {
             } else {
                 $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">Wrong password!</div>');
@@ -46,7 +46,7 @@ class Auth extends CI_Controller
                 redirect('Dashboard');
             }
         } else {
-            //user tidak ada
+            //jika user tidak ada
             $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">Username is not Registered</div>');
             redirect('auth');
         }
@@ -73,6 +73,7 @@ class Auth extends CI_Controller
             ];
 
             $this->db->insert('user', $data);
+            // success regiter dirrect page login
             $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">
             Congratulation! your account has been created. Please Login</div>');
             redirect('auth');

@@ -1,18 +1,18 @@
 <!doctype html>
 <html lang="en">
+<!-- Header -->
 
 <head>
     <title><?= $title; ?></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <link rel="stylesheet" href="<?php echo base_url() ?>temp/css/style.css">
-
 </head>
+<!-- End Header -->
+
+<!-- Page -->
 
 <body class="img js-fullheight" style="background-image: url(temp/images/uns.jpg);">
     <section class="ftco-section">
@@ -48,7 +48,7 @@
             </div>
         </div>
     </section>
-
+    <!-- End Page -->
     <script src="<?php echo base_url() ?>temp/js/jquery.min.js"></script>
     <script src="<?php echo base_url() ?>temp/js/popper.js"></script>
     <script src="<?php echo base_url() ?>temp/js/bootstrap.min.js"></script>

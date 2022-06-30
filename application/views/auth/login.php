@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+<!-- Header -->
 
 <head>
     <title><?= $title; ?></title>
@@ -12,6 +13,9 @@
 
     <link rel="stylesheet" href="<?php echo base_url() ?>temp/css/style.css">
 </head>
+<!-- End Header -->
+
+<!-- Page -->
 
 <body class="img js-fullheight" style="background-image: url(temp/images/uns.jpg);">
     <section class="ftco-section">
@@ -44,7 +48,7 @@
             </div>
         </div>
     </section>
-
+    <!-- End Page -->
     <script src="<?php echo base_url() ?>temp/js/jquery.min.js"></script>
     <script src="<?php echo base_url() ?>temp/js/popper.js"></script>
     <script src="<?php echo base_url() ?>temp/js/bootstrap.min.js"></script>

@@ -1,5 +1,6 @@
 <body class="">
   <div class="wrapper ">
+    <!-- Sidebar -->
     <div class="sidebar" data-color="white" data-active-color="danger">
       <div class="logo">
         <a href="" class="simple-text logo-mini">
@@ -12,6 +13,7 @@
         </a>
       </div>
       <div class="sidebar-wrapper">
+        <!-- Menu -->
         <ul class="nav">
           <li <?= $this->uri->segment(1) == 'Dashboard' || $this->uri->segment(1) == '' ? 'class="active"' : '' ?>>
             <a href="<?= base_url('Dashboard') ?>">
@@ -26,8 +28,10 @@
             </a>
           </li>
         </ul>
+        <!-- End Menu -->
       </div>
     </div>
+    <!-- End Sidebar -->
     <div class="main-panel">
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent">
@@ -64,3 +68,4 @@
           </div>
         </div>
       </nav>
+      <!-- End Navbar -->
